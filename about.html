@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goldmark</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navigation">
+
+            <div class="logo">
+                <p>Gold<span>mark</span></p>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li id="about"><a href="about.html">About us</a></li>
+                <li><a href="galary.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div id="signup">
+                <button onclick="toggleDisplay()">Sign Up</button>
+            </div>
+
+            <div id="signup-form" style="display: none">
+                <form>
+                    <h2>Sign Up</h2>
+
+                    <div class="form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <div class="form">
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+            </niv>
+    </header>
+
+
+    <div class="about-us">
+
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem porro consequatur animi, iste necessitatibus
+            maiores temporibus repudiandae itaque dignissimos enim facilis! Nulla est quaerat aliquid, impedit veniam
+            sed voluptate quo labore voluptas molestias repellendus suscipit odio dignissimos ad exercitationem velit.
+        </p>
+
+        <h2>Our Mission</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dicta, alias repellendus veritatis quos
+            at totam reiciendis iure? Provident temporibus nihil quidem. Eos facere suscipit quasi sunt illo commodi
+            perspiciatis, dolorum voluptates, eius maiores, veniam a consequatur dolor consectetur atque in ea quo
+            nobis! Quae, facere suscipit! Voluptatibus, vel tempore.</p>
+
+        <h2>Our Team</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid perspiciatis minima totam vitae aperiam cum
+            consectetur doloribus consequatur! Aut consequuntur expedita cumque dignissimos ipsam amet, earum officiis
+            voluptatibus repellendus eveniet.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

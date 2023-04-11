@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goldmark</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navigation">
+
+            <div class="logo">
+                <p>Gold<span>mark</span></p>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="galary.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div id="signup">
+                <button onclick="toggleDisplay()">Sign Up</button>
+            </div>
+
+            <div id="signup-form" style="display: none">
+                <form>
+                    <h2>Sign Up</h2>
+
+                    <div class="form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <div class="form">
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+
+                    <button type="submit">Sign Up</button>
+
+                </form>
+            </div>
+            </niv>
+    </header>
+
+    <div class="main">
+
+        <div class="search-bar">
+            <input type="text" placeholder="Rent or Buy an apartment with the press of a button" style="width:50vw">
+            <button>Search</button>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Salman Shah. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
